@@ -5,3 +5,15 @@ lesson 10
     : docker run -t <tag_name> .
     : docker run <image_name>
     : dcoke image ls (show list of docker images)
+
+lesson 11
+- linux commands
+
+lesson 12
+- linux distributions
+
+lesson 13
+- running linux
+- instead of using docker pull, u can use docker run automatically pull the image if doesn't exist
+- docker ps - to list all running process, -a includes stopped ones.
+- docker run -it short for interactive
