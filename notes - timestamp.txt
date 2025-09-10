@@ -1,1 +1,7 @@
-  
+lesson 10
+- creating docker file
+- downloading docker images
+- commands:
+    : docker run -t <tag_name> .
+    : docker run <image_name>
+    : dcoke image ls (show list of docker images)
