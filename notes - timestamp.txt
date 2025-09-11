@@ -16,4 +16,52 @@ lesson 13
 - running linux
 - instead of using docker pull, u can use docker run automatically pull the image if doesn't exist
 - docker ps - to list all running process, -a includes stopped ones.
-- docker run -it short for interactive
+- docker run -it short for interactive 
+
+lesson 14
+- managing packages
+
+lesson 15
+- installing nano
+
+lesson 16
+- navigating file system
+
+lesson 17
+- manipulating file dir 
+
+lesson 18
+- edit and view files
+- nano > edit files
+- cat > concatonate
+- more > long file
+- less > new command to replace more
+- head -n 5 > first lines of the file
+- tail > opposite of head
+
+lesson 19
+- redirection
+- '>' > rediredct the output
+- '<' > standard input
+
+lesson 20
+- searching for text
+- grep > searching
+- -i > case-insensitive
+- -r > recursive for dir.
+
+lesson 21
+- finding file and dirs 
+- find > list files
+- -type > filtering, d for dirs, f for files
+- -name|-iname > filter by names
+
+lesson 22
+- chaining commands
+- ; for chaining
+- && and ||
+- | pipe
+- \ for breaking commands
+
+lesson 23 
+- environment variables
