@@ -63,5 +63,28 @@ lesson 22
 - | pipe
 - \ for breaking commands
 
-lesson 23 
+lesson 23  
 - environment variables
+
+lesson 24 
+- manage processes
+- ps 
+- kill
+
+lesson 25
+- managing users
+- useradd
+- usermod 
+- userdel
+- adduser :  more interactive
+
+lesson 26
+- managing groups
+- groupadd
+- groupmod
+- groupdel
+
+lesson 27
+- file permissions
+- chmod
+
