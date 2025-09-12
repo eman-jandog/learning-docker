@@ -88,3 +88,24 @@ lesson 27
 - file permissions
 - chmod
 
+lesson 29 
+- images and containers
+
+lesson 30
+- sample web application
+
+lesson 31
+- dockerfile instructions
+- FROM : take based image
+- WORKDIR : set directory
+- COPY
+- ADD
+- RUN : operating commands
+- ENV : setting environment
+- EXPOSE : port
+- USER : user commands
+- CMD | ENTRYPOINT : commands when starts
+
+lesson 32
+- choosing right base image
+- refer to docker docs sample
