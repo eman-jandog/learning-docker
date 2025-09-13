@@ -109,3 +109,52 @@ lesson 31
 lesson 32
 - choosing right base image
 - refer to docker docs sample
+
+lesson 33 
+- copying file and dirs
+- ["", "", ""] for with space file names
+- ex: ["hello world.txt","."]
+
+lesson 34
+- excluding files and dirs
+- .dockerignore
+
+lesson 35
+- running commands 
+- RUN
+
+lesson 36
+- setting environment
+- ENV
+- viewing can done with ff:
+- printenv : all
+- printenv VAR : variable only
+- echo $VAR : uses echo command to view it
+
+lesson 37
+- exposing ports
+- EXPOSE
+
+lesson 38
+- setting user
+- used : 
+- addgroup to create group
+- verify using groups <group_name>
+- adduser to create user
+- adduser -S -G to create user for system user and adding group
+- preferred the group name is the same with the user name
+- ex: adduser -S -G app app
+- USER to set user
+
+lesson 39
+- defining ENTRYPOINT
+- switch the adding usign before the commands
+- RUN : runs at building images
+- CMD : runs at runtime
+- CMD npm start - this runs in shell form
+- CMD ["npm", "start"] - execute form
+- ENTRYPOINT ["npm", "start"]
+
+lesson 40
+- speeding up builds
+- docker history react-app
