@@ -158,3 +158,36 @@ lesson 39
 lesson 40
 - speeding up builds
 - docker history react-app
+
+lesson 41
+- removing images
+- docker image prune
+- docker container prune
+- docker images or docker image ls
+- docker image
+
+lesson 42
+- tagging images
+- docker build -t react-app:1
+- docker image remove react-app:1
+- docker images tag react-app:latest react-app:1
+- docker images tag <id>
+
+lesson 43
+- share images
+- docker hub
+- docker image tag <id> repo/repository-name:1
+- docker login
+- docker push repo/repository-name:1
+
+lesson 44
+- saving and loading images
+- want to load the image from another machine without using docker hub
+- docker image save -o <string> <id or tag>
+- docker image load -i <string>
+
+lesson 45
+- working with containers
+
+lesson 46
+- starting containers
