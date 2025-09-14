@@ -191,3 +191,72 @@ lesson 45
 
 lesson 46
 - starting containers
+- docker run -d for detach running container
+- docker run -d --name <name> <build-container-name>
+
+lesson 47
+- viewing the logs
+- docker logs <id>
+- -f parameter for following the logs
+
+lessdon 48
+- publishing ports
+- docker run -d -p 3000:3000
+- host -> container
+
+lesson 49
+- executing commands in running containers
+- docker exec
+- executing commands in running container
+
+lesson 50
+- stopping and starting container
+- docker stop
+- docker start
+- start an existing container
+
+lesson 51
+- removing containers
+- docker container remove
+- docker rm <name|id>
+- -f for force
+- docker ps -a 
+- docker container prune - remove all stops
+
+lesson 52
+- container file system
+- never store data in a container
+
+lesson 53
+- volumes
+- docker volume --help
+- docker volume create
+- docker volume inspect
+- docker run -d -p 4000:3000 -v app-data:/app/data react-app
+
+lesson 54
+- copying files from host to container
+- docker cp <source:dir> <destination>
+
+lesson 55
+- sharing soure code with a container
+- for production always build new image
+- for development will use binding the workspace in the container dir
+- docker run -d -p 5001:3000 $(pwd):/app react-app
+
+lesson 56
+- docker compose
+- running multi-container
+
+lesson 57
+- docker compose
+- installing docker compose
+
+lesson 58
+- cleaning up our workspace
+- docker image ls -q 
+- docker image rm $(docker image ls -aq)
+- docker container rm -f $(docker container ls -aq)
+
+lesson 59
+- sample web application
