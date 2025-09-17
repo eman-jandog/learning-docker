@@ -269,3 +269,7 @@ lesson 60
 lesson 61
 - creating compose file
 - docker source file
+
+lesson 62
+- building images
+- --no-cache : for building w/o using cache

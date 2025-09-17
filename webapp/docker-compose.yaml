@@ -13,7 +13,7 @@ services:
     db:
         image: mongo:4.0-xenial
         ports:
-            - 271017:27017
+            - 27017:27017
         volumes:
             - webapp:/data/db
 volumes:
