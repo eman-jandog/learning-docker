@@ -242,7 +242,7 @@ lesson 55
 - sharing soure code with a container
 - for production always build new image
 - for development will use binding the workspace in the container dir
-- docker run -d -p 5001:3000 $(pwd):/app react-app
+- docker run -d -p 5001:3000 -v $(pwd):/app react-app
 
 lesson 56
 - docker compose
@@ -273,3 +273,63 @@ lesson 61
 lesson 62
 - building images
 - --no-cache : for building w/o using cache
+
+lesson 63
+- starting and stopping application
+- docker compose up --build
+- -d : for detach
+- docker compose ps : show processes
+- docker compose down
+
+lesson 64
+- docker networking
+- docker network ls
+- create a dns for each services name
+- docker comes with dns serve and each container has dns resolver
+- it communicates and maps accordingly
+
+lesson 65
+- viewing logs
+- docker logs <container_id | tag> -ff
+
+lesson 66
+- publishing changes
+
+lesson 67
+- migrating database
+
+lesson 68
+- running test
+- use the images of the application to test
+- just add volumne for sharing code resource
+- then, command to run test
+
+lesson 70
+- single-host (offline - down, single serve)
+- cluster (high availability, and scalability)
+- cluster: Kurbernetes
+
+lesson 71
+- VPS
+
+lesson 72
+- docker machine
+- installed in the machine in order to 
+- communicate with the docker engine in the vps
+
+lesson 73
+- provisioning a host
+
+lesson 74
+- connecting to the host
+- docker-machine ls
+- docker-machine ssh <appname>
+
+lesson 75
+- defining production configuration
+- switch frontend to port 80 for default
+- restart : for services behavior
+
+lesson 76
+- reducing image size
+
