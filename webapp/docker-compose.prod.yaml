@@ -4,11 +4,13 @@ services:
         build:
             context: ./frontend
             dockerfile: Dockerfile.prod
+        image: webapp-web:1
         ports:
             - 80:80
         restart: unless-stopped
     api:
         build: ./backend
+        image: webapp-api:1
         ports:
             - 3001:3001
         environment: 
